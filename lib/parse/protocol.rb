@@ -6,7 +6,7 @@ module Parse
     # ----------------------------------------
 
     # The default hostname and path for communication with the Parse API.
-    HOST            = 'https://api.parse.com'
+    HOST            = 'https://api.bmob.cn'
     PATH            = '/1'
 
     # HTTP Headers
@@ -14,18 +14,18 @@ module Parse
 
     # The HTTP header used for passing your application ID to the
     # Parse API.
-    HEADER_APP_ID   = 'X-Parse-Application-Id'
+    HEADER_APP_ID   = 'X-Bmob-Application-Id'
 
     # The HTTP header used for passing your API key to the
     # Parse API.
-    HEADER_API_KEY  = 'X-Parse-REST-API-Key'
+    HEADER_API_KEY  = 'X-Bmob-REST-API-Key'
 
     # The HTTP header used for passing your API Master key to the
     # Parse API.
-    HEADER_MASTER_KEY = 'X-Parse-Master-Key'
+    HEADER_MASTER_KEY = 'X-Bmob-Master-Key'
 
     # The HTTP header used for passing your authenticated session
-    HEADER_SESSION_TOKEN = 'X-Parse-Session-Token'
+    HEADER_SESSION_TOKEN = 'X-Bmob-Session-Token'
 
     # JSON Keys
     # ----------------------------------------
